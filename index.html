@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+    <title>Thura Ye Moe Thaung</title>
+    <script src="css.js"></script>
+</head>
+<body>
+
+    <div id="chat-container">
+        <div id="chat-header">
+            <div id="header-title">
+                <h2>Thura Ye Moe Thaung</h2>
+                <span>AI Assistant of Thura Ye Moe Thaung</span>
+            </div>
+            <div id="header-buttons">
+                <button id="clear-chat-btn" title="Clear Chat">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px">
+                        <path d="M0 0h24v24H0V0z" fill="none"/>
+                        <path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM8 9h8v10H8V9zm7.5-5l-1-1h-5l-1 1H5v2h14V4h-3.5z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div id="chat-window">
+        </div>
+        <div id="chat-input-container">
+            <input type="text" id="user-input" placeholder="မေးခွန်းတစ်ခု မေးပါ..." disabled maxlength="300">
+            <button id="send-btn" disabled>
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px">
+                    <path d="M0 0h24v24H0V0z" fill="none"/>
+                    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2 .01 7z"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
